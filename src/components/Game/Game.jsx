@@ -13,7 +13,7 @@ const Game = () => {
     }
 
   return (
-    <div className="games">
+    <div className="games" id="games">
         <h2>Popular Games</h2>
         <ul>
             <li className="list"  onClick={() => setData(Categories)}>All</li>

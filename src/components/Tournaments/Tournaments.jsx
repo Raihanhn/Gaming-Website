@@ -9,7 +9,7 @@ import img15 from '../../assets/img/pub.jpg'
 
 const Tournaments = () => {
   return (
-    <div className="tournaments">
+    <div className="tournaments" id="tournament">
         <h2>Live Tournaments</h2>
         <div className="boxBx">
             <div className="box">

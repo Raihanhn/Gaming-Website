@@ -3,7 +3,7 @@ import img1 from '../../assets/img/img1.png'
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
         <div className="contentBx">
             <h2>About Us</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio odit corrupti aliquam cupiditate unde suscipit, voluptas officia incidunt, molestias odio dolores consequatur quibusdam nulla delectus dignissimos excepturi quod nihil quam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio odit corrupti aliquam cupiditate unde suscipit, voluptas officia incidunt, molestias odio dolores consequatur quibusdam nulla delectus dignissimos excepturi quod nihil quam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio odit corrupti odio dolores consequatur quibusdam nulla delectus dignissimos excepturi quod nihil quam.</p>

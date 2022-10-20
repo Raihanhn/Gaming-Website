@@ -320,7 +320,7 @@ body{
 .games .cardBx .card .info a{
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     border: 1px solid #1aeeef;
     text-decoration: none;
     font-weight: 700;
@@ -402,7 +402,7 @@ body{
 .tournaments .boxBx .box .content .watch{
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     background: #1aeeef;
     text-decoration: none;
     font-weight: 700;
@@ -422,7 +422,7 @@ body{
 .tournaments .boxBx .box .content .Join{
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     border: 1px solid #1aeeef;
     text-decoration: none;
     font-weight: 700;
@@ -438,4 +438,128 @@ body{
     box-shadow: 0 0 10px #1aeeef;
 }
 
+.contact{
+    padding: 20px 100px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img{
+    height: 100%;
+    width: 55%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contact .form{
+    width: 50%;
+    margin: 30px;
+}
+
+.contact .form h1{
+    color: #fff;
+}
+
+.contact .form .inputBx{
+    margin: 10px 0;
+}
+
+.contact .form .inputBx p{
+   color: #fff;
+}
+
+
+.contact .form .inputBx input,
+
+.contact .form .inputBx textarea{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background: #1b2141;
+    min-height: 15px;
+    font-size: 1.1rem;
+}
+
+.contact .form .inputBx textarea{
+    height: 80px;
+}
+
+.contact .form .inputBx input[type="submit"]{
+   display: inline;
+   padding: 10px 20px;
+   margin: 15px 0;
+   outline: none;
+   background: transparent;
+   border: 1px solid #1aeeef;
+   text-decoration: none;
+   font-weight: 700;
+   width: 150px;
+   border-radius: 5px;
+   color: #fff;
+   letter-spacing: 1px;
+}
+
+.contact .form .inputBx input[type="submit"]:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+.footer{
+    padding: 10px 100px;
+}
+
+.footer .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .info .logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer .info p{
+    color: #dbd9d9;
+}
+
+.footer .info ul{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .info ul li{
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1aeeef;
+}
+
+.footer .info ul li:hover{
+    background: #1aeeef;
+    border: none;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+.footer .info ul li a{
+    font-size: 1.5rem;
+    color: #fff;
+}
 

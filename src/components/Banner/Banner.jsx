@@ -3,7 +3,7 @@ import img from '../../assets/img/pubg.png'
 
 const Banner = () => {
   return (
-    <div className='banner'>
+    <div className='banner' id="home">
         <div className="bg">
             <div className="content">
                 <h2>A New Home For <br/>
